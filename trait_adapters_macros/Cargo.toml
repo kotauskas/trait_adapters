@@ -3,6 +3,9 @@ name = "trait_adapters_macros"
 version = "0.1.0"
 authors = ["Kotauskas <v.toncharov@gmail.com>"]
 edition = "2018"
+license = "Zlib"
+
+description = "Macros for the trait_adapters crate"
 
 [lib]
 proc-macro = true
