@@ -1,0 +1,18 @@
+[package]
+name = "trait_adapters"
+version = "0.1.0"
+authors = ["Kotauskas <v.toncharov@gmail.com>"]
+edition = "2018"
+license = "Zlib"
+readme = "README.md"
+
+description = "Provides newtype adapters for modifying interactions with traits"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+trait_adapters_macros = {version = "0.1.0", path = "./trait_adapters_macros", optional = true}
+
+[features]
+default = []
+macros = ["trait_adapters_macros"]
